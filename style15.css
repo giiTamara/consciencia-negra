@@ -1,61 +1,70 @@
-body { 
-    background-color: #000; 
-    color: #000000;
-     font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  color: white;
 }
 
-header { 
-    background-color: red;
-     padding: 20px;
-      text-align: center; 
-      border-bottom: 2px solid red; }
-
-header h1 { 
-    font-family: 'Bebas Neue', cursive;
-     font-size: 3.5rem; 
-     color: white;
-      text-transform: uppercase; margin: 0; 
+header {
+  background-color: #4B0000;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
-nav {
-    margin-top: 10px; 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 40px;
 }
 
-nav a { 
-    color: #FFA500;
-     margin: 0 10px;
-      text-decoration: none;
-       font-weight: bold;
-        transition: color 0.3s; 
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
-nav a:hover { 
-    color: #fff; 
+.texto {
+  max-width: 500px;
 }
 
-.principal { 
-    display: flex;
-     flex-wrap: wrap; 
-     padding: 20px; 
+.texto h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #ffcccc;
 }
 
-.resumo { 
-    flex: 1; 
-    padding-right: 20px; 
-    min-width: 300px; 
+.texto p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
 }
 
-.imagem { 
-    flex: 1; 
-    text-align: center; 
-    min-width: 300px; 
+button {
+  background-color: #4B0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: 0.3s;
 }
 
-.imagem img { 
-    max-width: 100%; 
-    height: auto; 
-    border: 3px solid #FFA500; 
+button:hover {
+  background-color: #800000;
 }
 
-@media (max-width: 768px) { .principal { flex-direction: column; } }
+#mensagem {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffcccc;
+  margin-top: 10px;
+  transition: 0.3s;
+}
