@@ -4,12 +4,18 @@ body {
       margin: 0; padding: 0;
 }
 
-header{
-    background-color: red;
-    padding: 20px;
-    text-align: center;
-     border-bottom: 2px solid red;
+header {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+  height: 160px;
+
+  background-color: red;
+  border: 10px solid;
 }
+
 
 nav {
     margin-top: 10px; 
