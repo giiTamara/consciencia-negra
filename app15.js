@@ -1,16 +1,11 @@
-const botaoTrocar = document.getElementById("trocarBtn");
-const imagem = document.getElementById("michaelImg");
+const btn = document.getElementById("trocarBtn");
+const img2 = document.getElementById("img2");
 
-// Nomes das imagens (coloque as fotos na mesma pasta)
-let imagem1 = "michael.jpeg";
-let imagem2 = "michael2.jpeg"; // segunda imagem
-let mostrandoPrimeira = true;
+let imagens = ["michael.jpeg", "michael2.jpeg"];
+let index = 0;
 
-botaoTrocar.addEventListener("click", () => {
-  if (mostrandoPrimeira) {
-    imagem.src = imagem2;
-  } else {
-    imagem.src = imagem1;
-  }
-  mostrandoPrimeira = !mostrandoPrimeira;
+btn.addEventListener("click", () => {
+  index = (index + 1) % imagens.length;
+  img2.src = imagens[index];
 });
+
