@@ -45,3 +45,11 @@ img {
   text-align: justify;
 }
 
+footer{
+  background-color: #4B0000;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: white;
+  font-size: 2px solid black ;
+}
