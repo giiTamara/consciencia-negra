@@ -26,7 +26,7 @@ img {
   width: 300px;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px gray;
 }
 
 .texto {
@@ -45,11 +45,12 @@ img {
   text-align: justify;
 }
 
-footer{
-  background-color: #4B0000;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-  color: white;
-  font-size: 2px solid black ;
-}
+ footer {
+    background-color: #4B0000;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    font-family: 'Comic Neue', cursive;
+  }
+  
