@@ -54,11 +54,9 @@ img {
     font-family: 'Comic Neue', cursive;
   }
   
-  #boasVindas {
+#boasVindas {
   text-align: center;
   font-size: 20px;
   color: #FFD700;
-  margin-top: 15px;
-  opacity: 0;
-  transition: opacity 1s ease;
+  margin-top: 10px;
 }
