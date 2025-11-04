@@ -1,4 +1,11 @@
 window.onload = function() {
-  document.getElementById("boasVindas").textContent =
-    "Bem-vindo à página do Rei do Pop, HEHEEEEEE! 🕺";
+  const tela = document.getElementById("boasVindas");
+
+  setTimeout(() => {
+    tela.classList.add("oculto");
+    
+    setTimeout(() => {
+      tela.style.display = "none";
+    }, 1000);
+  }, 3000);
 };
