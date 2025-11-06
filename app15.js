@@ -9,6 +9,6 @@ function TrocaFoto() {
             imagem.src = `michael.jpeg`;
             foto_troca= false
         }
-    alert("OOOOOOOHHHHH")
+    alert("HEHEEEEEE🕺")
 
 }
