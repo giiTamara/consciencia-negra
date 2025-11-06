@@ -1,4 +1,4 @@
-const imagem = document.querySelector("img");
+const imagem = document.querySelectorAll("img");
 let foto_troca = false;
 
 function TrocaFoto(){
@@ -9,7 +9,7 @@ function TrocaFoto(){
         foto_troca = true;
     } else {
         for (let i = 0; i < imagem.length; i++){
-imagem[i].src = `michaeljackson0.jpg`;
+imagem[i].src = `michael.jpeg`;
         }
         foto_troca = false;
     }
