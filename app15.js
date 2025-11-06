@@ -1,4 +1,4 @@
-const imagem = document.querySelectorAll("img");
+const imagem = document.getElementById('foto');
 let foto_troca = false;
 
 function TrocaFoto() {
