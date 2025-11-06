@@ -1,17 +1,13 @@
 const imagem = document.querySelectorAll("img");
 let foto_troca = false;
 
-function TrocaFoto(){
+function TrocaFoto() {
     if (foto_troca === false){
-        for (let i = 0; i <imagem.length; i++){
-            imagem[i].src = `michaeljackson${i + 1}.jpg`;
-        }
+            imagem[i].src = `michaeljackson1.jpg`;
         foto_troca = true;
-    } else {
-        for (let i = 0; i < imagem.length; i++){
-imagem[i].src = `michael.jpeg`;
+    }else {
+            imagem[i].src = `michael.jpeg`;
+            foto_troca= false
         }
-        foto_troca = false;
-    }
-    
+
 }
