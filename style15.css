@@ -52,3 +52,10 @@ img {
     height: 30px;
     font-family: 'Comic Neue', cursive;
   }
+
+  button{
+    color: white;
+    background-color: #4B0000;
+    border-radius: 10px;
+
+  }
